@@ -118,3 +118,15 @@ form textarea{
 iframe{
     width: 100%;
 }
+
+#rodapé{
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+
+#rodapé img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
