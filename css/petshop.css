@@ -95,7 +95,7 @@ nav a:hover{
     color: black;
     border-radius: 5px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 #produto .flex-container{
@@ -129,4 +129,44 @@ iframe{
     width: 50px;
     height: 50px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 580px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        width: 450px;
+    }
+
+    #produto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto{
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+
+    .texto-centralizado{
+        padding-right: 10px;
+    }
+
+    form{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .col {
+        padding-top: 30px;
+    }
 }
